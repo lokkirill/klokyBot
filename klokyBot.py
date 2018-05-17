@@ -96,7 +96,7 @@ def command_answer(command, chat_id, first_name, words):
 
 def send_message(chat_id, text):
     url = "https://api.telegram.org/bot{token}/{method}".format(
-        token="467532974:AAEHnh87Ql1BFCFuO0N0NWhxGUWnv6YDCWA",
+        token="yourToken",
         method="sendMessage"
     )
     data = {
@@ -108,7 +108,7 @@ def send_message(chat_id, text):
 
 def send_photo(chat_id, photo):
     url = "https://api.telegram.org/bot{token}/{method}".format(
-        token="467532974:AAEHnh87Ql1BFCFuO0N0NWhxGUWnv6YDCWA",
+        token="yourToken",
         method="sendPhoto"
     )
     data = {
