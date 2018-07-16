@@ -31,8 +31,6 @@ def point(event, context):
         else:
             send_message(event[message_key]["chat"]["id"], "Введите команду. Формат команды следующий: /<имя команды> [<параметр1>]")
 
-
-
 def command_answer(command, chat_id, first_name, words):
     if command == 'echo' or command == 'echo@klokybot':
         send_message(chat_id, "бот робиц")
